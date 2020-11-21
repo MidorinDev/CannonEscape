@@ -1,0 +1,15 @@
+name: CannonEscape
+version: ${project.version}
+main: plugin.midorin.info.ce.CannonEscape
+
+commands:
+  cannonescape:
+    description: CannonEscapeのゲームコマンド
+    aliases:
+      - ce
+  join:
+    description: ゲーム参加コマンド
+  leave:
+    description: ゲーム退出コマンド
+  vote:
+    description: Map投票コマンド
